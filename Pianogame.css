@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@0;1&family=Mali&display=swap');
+
+body{
+    font-family: 'Gentium Plus', serif;
+    background-image: url(game1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110px;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: limegreen;
+
+}
+#main{
+    display: grid;
+    place-items: center;
+    margin-top: 60px;
+
+}
+.button{
+    background: #3E3F42;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    border: 10px  #3E3F42 ;
+    cursor: pointer;
+
+}
+button:active{
+    transform: translateY(4px);
+}
+.add{
+    box-shadow: 7px 7px 10px rgb(207, 185, 185);
+    transform: translateY(6px);
+    border-width: 3px;
+    background-color: rgb(253, 253, 201);
+
+}
+
+
